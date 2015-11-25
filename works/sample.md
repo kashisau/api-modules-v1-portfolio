@@ -1,5 +1,5 @@
 # Portfolio work title
-## Type of production
+## Q1 2015: Type of production
 
 ### Description
 A brief description of the portfolio work item goes here, explaining some of the challenges and methods used to overcome them.
@@ -19,6 +19,6 @@ Uses jQuery to enrich the user experience...
 ### Version control
 Version control GIT is used to manage the development, collaboration and production processeses.
 ## Awards
-### 2013 - Award name
+### 2013: Award name
 ##### Award category
 A brief description of the awards and what they're typically targeted towards.
