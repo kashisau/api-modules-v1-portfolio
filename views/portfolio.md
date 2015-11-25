@@ -5,5 +5,5 @@ Allows portfolio data to be retrieved from the server and displayed to the user 
 
 ## API Methods
 
-### [`Work`](work/) (AccessLevel 1)
+### [Works](works/) (AccessLevel 1)
 Provides listing and retrieval of portfolio content.
