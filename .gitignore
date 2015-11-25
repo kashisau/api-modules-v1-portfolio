@@ -3,5 +3,5 @@ node_modules/
 !/config/**/*.sample.*
 .idea
 .vscode
-works/**/*.md
-!works/**/*sample.md
+works/**/*
+!works/**/*sample.*

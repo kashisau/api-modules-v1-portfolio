@@ -1,0 +1,28 @@
+name: Portfolio work title
+type: production type
+published: 2015-Q1
+description:
+  A brief description of the portfolio work item goes here, explaining some of the challenges and methods used to overcome them.
+  This can be multiline (where the YAML parser will convert newlines to the \n representation.)
+  It can also include **MarkDown** syntax, which will be encoded as HTML before being sent from the API server.
+technologies:
+  - PHP:
+    - MVC:
+        This project uses popular PHP MVC framework ______ in order to facilitate feature X and Y, etc.
+    - OOP:
+        These specific features, A and B, use the object-orineted oriented principles of PHP5.3, maximising extensibility.
+  - Data design:
+    - MySQL:
+        Uses features alpha, beta & gamma of MySQL in order to provide functionality. This is a data-rich application, etc...
+  - JavaScript:
+    - jQuery:
+        Uses jQuery to enrich the user experience...
+  - Version control:
+    - GIT:
+        GIT is used to manage the development, collaboration and production processeses.
+awards:
+  - name: Ceremony name
+    year: 2013
+    class: winner/finalist/runner-up, etc.
+    category: Awarded category
+    description: A brief description of the awards and who they're for.
