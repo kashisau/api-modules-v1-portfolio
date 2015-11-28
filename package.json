@@ -10,7 +10,7 @@
     "dependencies": {
         "mocha": "*",
         "should": "*",
-        "mongodb": "*"
+        "js-yaml": "*"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha -w"
