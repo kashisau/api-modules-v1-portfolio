@@ -43,14 +43,12 @@ worksModelAPI.listWorks = function(worksPath, criteria) {
         fileName = workFiles[i];
         filePath = path.join(worksPath, fileName);
 
-        if ( ! /\.yaml$/i.test(fileName)) continue;
-        if (/sample\.yaml$/i.test(fileName)) continue;
+        if ( ! worksModelAPI.fileNameFilter(fileName)) continue;
 
         try {
-            works.push(worksModelAPI.parseWorkFile('..' + filePath));
+            works.push(worksModelAPI.parseWorkFile(filePath));
         } catch (fileErr) {}
     }
-    
     return works;
 }
 
